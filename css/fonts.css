@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans\ Regular.ttf') format('ttf'),
+         url('../fonts/OpenSans\ Regular.eot') format('eot'),
+         url('../fonts/OpenSans\ Regular.woff') format('woff'),
+         url('../fonts/OpenSans\ Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Semibold.ttf') format('ttf'),
+         url('../fonts/OpenSans-Semibold.eot') format('eot'),
+         url('../fonts/OpenSans-Semibold.woff') format('woff'),
+         url('../fonts/OpenSans-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans\ Bold.ttf') format('ttf'),
+         url('../fonts/OpenSans\ Bold.eot') format('eot'),
+         url('../fonts/OpenSans\ Bold.woff') format('woff'),
+         url('../fonts/OpenSans\ Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FREESCPT';
+    src: url('../fonts/FREESCPT.ttf') format('ttf'),
+         url('../fonts/FREESCPT.eot') format('eot'),
+         url('../fonts/FREESCPT.woff') format('woff'),
+         url('../fonts/FREESCPT.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('../fonts/Myriad\ Pro\ Regular.ttf') format('ttf'),
+         url('../fonts/Myriad\ Pro\ Regular.eot') format('eot'),
+         url('../fonts/Myriad\ Pro\ Regular.woff') format('woff'),
+         url('../fonts/Myriad\ Pro\ Regular.woff2') format('woff2');
+    font-weight: normal;
+}
