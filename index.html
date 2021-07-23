@@ -22,7 +22,7 @@
                     <ul class="menu menu_active">
                         <li class="menu_item"><a href="#" class="menu_link">About us</a></li>
                         <li class="menu_item"><a href="#" class="menu_link">Reservation</a></li>
-                        <li class="menu_item"><a href="#" class="menu_link">Gallery</a></li>
+                        <li class="menu_item"><a href="#gallery" class="menu_link">Gallery</a></li>
                         <li class="menu_item"><a href="#" class="menu_link">Blog</a></li>
                         <li class="menu_item"><a href="#" class="menu_link">Elements</a></li>
                         <li class="menu_item"><a href="#" class="menu_link">Shop</a></li>
@@ -44,17 +44,19 @@
                     <h3 class="form_title">Trial Class</h3>
                     <input name="name" required placeholder="Enter your name" type="text">
                     <input name="phone" required placeholder="Enter your phone" type="number">
-                   <select id="select">
-                    <option value="hide">Chose your class</option>
-                    <option value="2010">1</option>
-                    <option value="2011">2</option>
-                    <option value="2012">3</option>
-                    <option value="2013">4</option>
-                    <option value="2014">5</option>
-                    <option value="2015">6</option>
-                </select>
+                    <div class="select-box">
+                        <label for="select-box1" class="label select-box1">
+                            <span class="label-desc">Chose your class</span> 
+                        </label>
+                        <select id="select-box1" class="select">
+                          <option value="Choice 1">Yoga For Health</option>
+                          <option value="Choice 2">Yoga For Lose Weight</option>
+                          <option value="Choice 3">Yoga For Children</option>
+                          <option value="Choice 4">Yoga For Elderly</option>
+                        </select>  
+                    </div>
                       
-                    <button class="promo_btn">Try it</button>
+                    <button type="submit" class="promo_btn">Try it</button>
                 </form>
                 <div class="promo-title">
                     <h1>Just Balance
@@ -137,7 +139,7 @@
         </div>
     </section>
  
-    <div class="gallery">
+    <div class="gallery id="gallery">
         
         <div class="gallery-wrapper">
             <div class="gallery-item icon-search">
@@ -327,6 +329,28 @@
 
         </div>
     </section>
+    
+    <section class="proba">
+        <form class="promo-form" action="#">
+            <h3 class="form_title">Trial Class</h3>
+            <input name="name" required placeholder="Enter your name" type="text">
+            <input name="phone" required placeholder="Enter your phone" type="number">
+            <div class="select-box">
+                <label for="select-box1" class="label select-box1">
+                    <span class="label-desc">Chose your class</span> 
+                </label>
+                <select id="select-box1" class="select">
+                  <option value="Choice 1">Yoga For Health</option>
+                  <option value="Choice 2">Yoga For Lose Weight</option>
+                  <option value="Choice 3">Yoga For Children</option>
+                  <option value="Choice 4">Yoga For Elderly</option>
+                </select>
+                
+            </div>
+              
+            <button type="submit" class="promo_btn">Try it</button>
+        </form>
+    </section>
 
     <footer class="footer">
         <div class="container">
@@ -389,6 +413,8 @@
             <span>Copyright &copy; 2016-2017 Yoga classes</span>
         </div>
     </footer>
+
+    
     
 
 
