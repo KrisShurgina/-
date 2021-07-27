@@ -98,6 +98,7 @@ header .header-wrapper nav .menu {
     right: -100%;
     -webkit-transition: 0.4s all linear;
     transition: 0.4s all linear;
+    display: none;
   }
 }
 
@@ -117,11 +118,6 @@ header .header-wrapper nav .menu .menu_item:last-child {
 @media (max-width: 1200px) {
   header .header-wrapper nav .menu .menu_item {
     font-size: 16px;
-  }
-}
-
-@media (max-width: 1200px) {
-  header .header-wrapper nav .menu .menu_item {
     margin-right: 15px;
   }
 }
@@ -169,6 +165,9 @@ header .header-wrapper nav .menu .menu_item .menu_link:hover {
 @media (max-width: 768px) {
   header .header-wrapper nav .menu_active {
     right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -371,11 +370,6 @@ header .header-wrapper nav .hamburger {
   color: #888888;
 }
 
-.promo .promo-wrapper .promo-form .select-box .open .label::after {
-  content: "▲";
-  color: #5b6ceb;
-}
-
 .promo .promo-wrapper .promo-form .select-box .label::after {
   content: "▼";
   font-size: 14px;
@@ -391,6 +385,11 @@ header .header-wrapper nav .hamburger {
   font-size: 14px;
   font-family: "OpenSans";
   font-weight: normal;
+}
+
+.promo .promo-wrapper .promo-form .open .label::after {
+  content: "▲";
+  color: #5b6ceb;
 }
 
 .promo .promo-wrapper .promo-form .promo_btn {
@@ -1429,147 +1428,6 @@ header .header-wrapper nav .hamburger {
 }
 
 .price .price-wrapper .price-card .price-card__btn:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  background-color: #6b6ceb;
-  -webkit-box-shadow: 0px 5px 7px 0px rgba(83, 99, 219, 0.8);
-          box-shadow: 0px 5px 7px 0px rgba(83, 99, 219, 0.8);
-}
-
-.proba {
-  background-color: #5b6ceb;
-  height: 500px;
-  width: 100%;
-}
-
-.proba .promo-form {
-  margin-right: 32px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 40px 0 33px;
-  width: 290px;
-  height: 380px;
-  background-color: #fff;
-  border-radius: 20px;
-}
-
-@media (max-width: 1200px) {
-  .proba .promo-form {
-    margin-right: 22px;
-  }
-}
-
-@media (max-width: 768px) {
-  .proba .promo-form {
-    margin: 0 auto;
-  }
-}
-
-.proba .promo-form .form_title {
-  margin-bottom: 14px;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  padding-left: 27px;
-  font-size: 25.641px;
-  font-family: "OpenSans";
-  color: #5363db;
-  font-weight: 700;
-}
-
-.proba .promo-form input {
-  width: 238px;
-  height: 48px;
-  margin-top: 16px;
-  background-color: #f2f2f2;
-  color: #888888;
-  border: none;
-  border-radius: 5px;
-  font-size: 14px;
-  font-family: "OpenSans";
-  font-weight: normal;
-  padding-left: 10px;
-}
-
-.proba .promo-form .select-box {
-  cursor: pointer;
-  position: relative;
-  margin-top: 16px;
-}
-
-.proba .promo-form .select,
-.proba .promo-form .label {
-  display: block;
-  width: 238px;
-  height: 48px;
-  border-radius: 5px;
-  font-size: 14px;
-  font-family: "OpenSans";
-  font-weight: normal;
-}
-
-.proba .promo-form .select {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  padding: 5px 0;
-  height: 40px;
-  opacity: 0;
-  background: none transparent;
-  border: 0 none;
-}
-
-.proba .promo-form .select-box1 {
-  background-color: #f2f2f2;
-  color: #888888;
-}
-
-.proba .promo-form .label {
-  position: relative;
-  padding: 15px 10px;
-  cursor: pointer;
-}
-
-.proba .promo-form .open .label::after {
-  content: "▲";
-  color: #5b6ceb;
-}
-
-.proba .promo-form .label::after {
-  content: "▼";
-  font-size: 14px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 15px 15px;
-  color: #5b6ceb;
-}
-
-.proba .promo-form .promo_btn {
-  margin-top: 42px;
-  width: 170px;
-  height: 49px;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  background-color: #5b6ceb;
-  color: #fff;
-  margin-right: 23px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  font-family: "OpenSans";
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.proba .promo-form .promo_btn:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   background-color: #6b6ceb;
